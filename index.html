@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation du personnel de notre société">
+    <title>Notre Équipe - Société XYZ</title>
+    <style>
+        /* Reset basique */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mise en forme de la page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main .container {
+            padding: 20px;
+        }
+
+        .team-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        .team-member .info {
+            max-width: 600px;
+        }
+
+        .team-member .role {
+            font-weight: bold;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            margin-top: 10px;
+            color: #007BFF;
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive pour petits écrans */
+        @media (max-width: 768px) {
+            .team-member {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .team-member img.profile-img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête du site -->
+    <header>
+        <div class="container">
+            <h1>Notre Équipe</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://votresite.com/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <main class="team-section">
+        <div class="container">
+            <h2>Rencontrez nos experts</h2>
+            
+            <div class="team-member">
+                <div class="info">
+                    <h3>Nouchira Mohamed</h3>
+                    <p class="role">Directeur Général</p>
+                    <p>Mr. Nouchira Mohamed est le directeur de la société XYZ, avec plus de 15 ans d'expérience dans le secteur. Il gère la stratégie globale et veille à l'atteinte des objectifs de l'entreprise.</p>
+                    <p class="contact">Contact: [Insérer le contact de Nouchira ici]</p>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="info">
+                    <h3>Nadia Rharnati</h3>
+                    <p class="role">Responsable Administratif</p>
+                    <p>Madame Nadia est la responsable administrative, chargée de la gestion des tâches administratives et de la coordination des opérations internes au sein de l'entreprise.</p>
+                    <p class="contact">Contact: [Insérer le contact de Nadia ici]</p>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="info">
+                    <h3>Issam</h3>
+                    <p class="role">Commercial</p>
+                    <p>Issam est responsable des ventes et du développement commercial. Il gère les relations clients et soutient la stratégie commerciale de l'entreprise.</p>
+                    <p class="contact">Contact: [Insérer le contact d'Issam ici]</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Société XYZ - Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
